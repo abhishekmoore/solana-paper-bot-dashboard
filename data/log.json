@@ -1,7 +1,5 @@
 {
  "lines": [
-  "### NEW LIVE PAPER SESSION SOL/USDC start=2026-11-03T13:06:11+00:00 planned_end=2026-11-04T13:06:11+00:00 capital=100.0 USDC  size=50% equity/entry  fee=25.0bps max_slip=50.0bps max_quote_age=5.0s",
-  "### PAPER ONLY: no keys, no signing, no tx. Prices: real public read-only APIs. Quotes: MODELED.",
   "### warm-up: backfilled 40 real 1-min Coinbase candles (for SMA30 only; no trades on them)",
   "[2026-11-03T13:07:11.885759+00:00] BAR 13:06Z o=92.6540 h=92.7400 l=92.6540 c=92.7400 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
   "[2026-11-03T13:08:11.891875+00:00] BAR 13:07Z o=92.7542 h=92.8039 l=92.7542 c=92.8039 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
@@ -115,6 +113,12 @@
   "[2026-11-03T14:11:10.150050+00:00] BAR 14:10Z o=92.9110 h=92.9137 l=92.8685 c=92.8685 ticks=4 src=jupiter-lite-price-v3",
   "[2026-11-03T14:12:10.157012+00:00] BAR 14:11Z o=92.8696 h=93.0011 l=92.8696 c=93.0011 ticks=4 src=jupiter-lite-price-v3",
   "[2026-11-03T14:13:10.163147+00:00] BAR 14:12Z o=92.9977 h=93.1150 l=92.9943 c=93.0599 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
-  "[2026-11-03T14:14:10.168561+00:00] BAR 14:13Z o=93.0276 h=93.0276 l=92.9816 c=92.9910 ticks=4 src=jupiter-lite-price-v3"
+  "[2026-11-03T14:14:10.168561+00:00] BAR 14:13Z o=93.0276 h=93.0276 l=92.9816 c=92.9910 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:15:10.174214+00:00] BAR 14:14Z o=93.0413 h=93.0413 l=93.0076 c=93.0076 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:16:10.180142+00:00] BAR 14:15Z o=92.9270 h=92.9270 l=92.7934 c=92.7934 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:17:10.185536+00:00] BAR 14:16Z o=92.8564 h=92.8947 l=92.8467 c=92.8947 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:18:10.191285+00:00] BAR 14:17Z o=92.8180 h=92.9111 l=92.8180 c=92.9111 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:19:10.201032+00:00] BAR 14:18Z o=92.9072 h=92.9909 l=92.9072 c=92.9909 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:20:10.207245+00:00] BAR 14:19Z o=92.9844 h=93.0397 l=92.9230 c=92.9230 ticks=4 src=jupiter-lite-price-v3"
  ]
 }
