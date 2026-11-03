@@ -681,15 +681,103 @@
    "time": 1793721720
   },
   {
-   "close": 93.3675628666166,
-   "high": 93.3675628666166,
-   "low": 93.3675628666166,
+   "close": 93.40881996038094,
+   "high": 93.40881996038094,
+   "low": 93.35209483025747,
    "open": 93.3675628666166,
-   "src": "jupiter-lite-price-v3 (forming)",
+   "src": "jupiter-lite-price-v3",
    "time": 1793721780
+  },
+  {
+   "close": 93.27275650613798,
+   "high": 93.41558010377942,
+   "low": 93.27275650613798,
+   "open": 93.41558010377942,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721840
+  },
+  {
+   "close": 93.29221479988536,
+   "high": 93.35701283093694,
+   "low": 93.29221479988536,
+   "open": 93.31339576329017,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721900
+  },
+  {
+   "close": 93.38452049199344,
+   "high": 93.3901072400723,
+   "low": 93.34065514167735,
+   "open": 93.34065514167735,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721960
+  },
+  {
+   "close": 93.34022305648607,
+   "high": 93.395,
+   "low": 93.34022305648607,
+   "open": 93.395,
+   "src": "coinbase-spot+jupiter-lite-price-v3",
+   "time": 1793722020
+  },
+  {
+   "close": 93.345,
+   "high": 93.345,
+   "low": 93.345,
+   "open": 93.345,
+   "src": "coinbase-spot (forming)",
+   "time": 1793722080
   }
  ],
  "checks": [
+  {
+   "check_name": "token_validity",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0002",
+   "observed": "in=So1111..(9) out=EPjFWd..(6)",
+   "passed": true,
+   "quote_id": "LQ-20261103T160806-0002",
+   "reason": "mints allowlisted, decimals match",
+   "side": "SELL",
+   "threshold": "allowlist SOL->USDC",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
+  {
+   "check_name": "available_balance",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0002",
+   "observed": "0.535550 SOL",
+   "passed": true,
+   "quote_id": "LQ-20261103T160806-0002",
+   "reason": "sufficient paper balance",
+   "side": "SELL",
+   "threshold": ">= 0.535550 SOL",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
+  {
+   "check_name": "quote_age",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0002",
+   "observed": "0.16s",
+   "passed": true,
+   "quote_id": "LQ-20261103T160806-0002",
+   "reason": "quote fresh",
+   "side": "SELL",
+   "threshold": "<= 5.00s",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
+  {
+   "check_name": "max_slippage",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0002",
+   "observed": "31.1 bps (px dev 1.1, min-out 31.1)",
+   "passed": true,
+   "quote_id": "LQ-20261103T160806-0002",
+   "reason": "within tolerance",
+   "side": "SELL",
+   "threshold": "<= 50.0 bps",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
   {
    "check_name": "token_validity",
    "decision": "EXECUTED",
@@ -700,6 +788,18 @@
    "reason": "mints allowlisted, decimals match",
    "side": "BUY",
    "threshold": "allowlist USDC->SOL",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  },
+  {
+   "check_name": "max_slippage",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "33.0 bps (px dev 3.0, min-out 33.0)",
+   "passed": true,
+   "quote_id": "LQ-20261103T153806-0001",
+   "reason": "within tolerance",
+   "side": "BUY",
+   "threshold": "<= 50.0 bps",
    "ts": "2026-11-03T15:38:06.605894+00:00"
   },
   {
@@ -724,18 +824,6 @@
    "reason": "quote fresh",
    "side": "BUY",
    "threshold": "<= 5.00s",
-   "ts": "2026-11-03T15:38:06.605894+00:00"
-  },
-  {
-   "check_name": "max_slippage",
-   "decision": "EXECUTED",
-   "intent_id": "INT-0001",
-   "observed": "33.0 bps (px dev 3.0, min-out 33.0)",
-   "passed": true,
-   "quote_id": "LQ-20261103T153806-0001",
-   "reason": "within tolerance",
-   "side": "BUY",
-   "threshold": "<= 50.0 bps",
    "ts": "2026-11-03T15:38:06.605894+00:00"
   }
  ],
@@ -1064,13 +1152,61 @@
   },
   {
    "cash": 50.0,
-   "equity": 100.00301664984364,
-   "price": 93.3675628666166,
+   "equity": 100.02511189452053,
+   "price": 93.40881996038094,
    "sol": 0.5355501966060435,
    "time": 1793721780
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.95224308484981,
+   "price": 93.27275650613798,
+   "sol": 0.5355501966060435,
+   "time": 1793721840
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.96266397789185,
+   "price": 93.29221479988536,
+   "sol": 0.5355501966060435,
+   "time": 1793721900
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.01209830944819,
+   "price": 93.38452049199344,
+   "sol": 0.5355501966060435,
+   "time": 1793721960
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.98837480915307,
+   "price": 93.34022305648607,
+   "sol": 0.5355501966060435,
+   "time": 1793722020
+  },
+  {
+   "cash": 99.85097105424825,
+   "equity": 99.85097105424825,
+   "price": 93.345,
+   "sol": 0.0,
+   "time": 1793722080
   }
  ],
  "executions": [
+  {
+   "execution_id": 2,
+   "fee_usdc": 0.12493977707831638,
+   "fill_price": 93.3169498359635,
+   "in_amount": 0.5355501966060435,
+   "intent_id": "INT-0002",
+   "label": "signal: SMA10<SMA30 exit (93.4423<93.4613)",
+   "out_amount": 49.85097105424824,
+   "side": "SELL",
+   "signature": "SIM-b3f6565c2f84f9de",
+   "status": "SIMULATED_CONFIRMED",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
   {
    "execution_id": 1,
    "fee_usdc": 0.125,
@@ -1085,9 +1221,17 @@
    "ts": "2026-11-03T15:38:06.605894+00:00"
   }
  ],
- "export_utc": "2026-11-03T16:03:07.023686+00:00",
- "generated_utc": "2026-11-03T16:03:06.911923+00:00",
+ "export_utc": "2026-11-03T16:08:08.760593+00:00",
+ "generated_utc": "2026-11-03T16:08:07.082876+00:00",
  "intents": [
+  {
+   "decision": "EXECUTED",
+   "intent_id": "INT-0002",
+   "label": "signal: SMA10<SMA30 exit (93.4423<93.4613)",
+   "price": 93.3169498359635,
+   "side": "SELL",
+   "ts": "2026-11-03T16:08:07.052156+00:00"
+  },
   {
    "decision": "EXECUTED",
    "intent_id": "INT-0001",
@@ -1098,11 +1242,18 @@
   }
  ],
  "last_tick": {
-  "price": 93.3675628666166,
-  "source": "jupiter-lite-price-v3",
-  "ts": "2026-11-03T16:03:06.838315+00:00"
+  "price": 93.345,
+  "source": "coinbase-spot",
+  "ts": "2026-11-03T16:08:06.896055+00:00"
  },
  "positions": [
+  {
+   "avg_entry": 0.0,
+   "execution_id": 2,
+   "sol": 0.0,
+   "ts": "2026-11-03T16:08:07.052156+00:00",
+   "usdc": 99.85097105424825
+  },
   {
    "avg_entry": 93.12852523642819,
    "execution_id": 1,
@@ -1122,43 +1273,43 @@
  },
  "summary": {
   "balances": {
-   "SOL": 0.5355501966060435,
-   "USDC": 50.0
+   "SOL": 0.0,
+   "USDC": 99.85097105424825
   },
-  "bars": 46,
-  "buy_hold_equity_usdc": 99.836635,
-  "buy_hold_return_pct": -0.1634,
-  "equity_usdc": 100.003017,
-  "executions": 1,
-  "fees_paid_usdc": 0.125,
+  "bars": 51,
+  "buy_hold_equity_usdc": 99.812508,
+  "buy_hold_return_pct": -0.1875,
+  "equity_usdc": 99.850971,
+  "executions": 2,
+  "fees_paid_usdc": 0.24994,
   "finished_utc": null,
   "first_price": 93.05332562502076,
-  "last_price": 93.3675628666166,
+  "last_price": 93.345,
   "market": "SOL/USDC",
-  "max_drawdown_pct": -0.1912,
+  "max_drawdown_pct": -0.3429,
   "mode": "PAPER (modeled quotes, simulated fills)",
   "planned_end_utc": "2026-11-04T15:17:51+00:00",
-  "pnl_usdc": 0.003017,
+  "pnl_usdc": -0.149029,
   "position": {
-   "avg_entry": 93.12852523642819,
-   "sol": 0.5355501966060435
+   "avg_entry": 0.0,
+   "sol": 0.0
   },
   "price_sources_used": {
-   "coinbase-spot": 6,
-   "jupiter-lite-price-v3": 175
+   "coinbase-spot": 8,
+   "jupiter-lite-price-v3": 193
   },
   "rejections": 0,
   "rejections_by_check": {},
   "restarts": 1,
-  "return_pct": 0.003,
-  "round_trips": 0,
+  "return_pct": -0.149,
+  "round_trips": 1,
   "session_id": "session2",
   "start_utc": "2026-11-03T15:17:51+00:00",
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 181,
-  "win_rate_pct": null,
+  "ticks": 201,
+  "win_rate_pct": 0.0,
   "wins": 0
  },
  "tick_failures": []

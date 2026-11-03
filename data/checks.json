@@ -2,6 +2,54 @@
  {
   "check_name": "token_validity",
   "decision": "EXECUTED",
+  "intent_id": "INT-0002",
+  "observed": "in=So1111..(9) out=EPjFWd..(6)",
+  "passed": true,
+  "quote_id": "LQ-20261103T160806-0002",
+  "reason": "mints allowlisted, decimals match",
+  "side": "SELL",
+  "threshold": "allowlist SOL->USDC",
+  "ts": "2026-11-03T16:08:07.052156+00:00"
+ },
+ {
+  "check_name": "available_balance",
+  "decision": "EXECUTED",
+  "intent_id": "INT-0002",
+  "observed": "0.535550 SOL",
+  "passed": true,
+  "quote_id": "LQ-20261103T160806-0002",
+  "reason": "sufficient paper balance",
+  "side": "SELL",
+  "threshold": ">= 0.535550 SOL",
+  "ts": "2026-11-03T16:08:07.052156+00:00"
+ },
+ {
+  "check_name": "quote_age",
+  "decision": "EXECUTED",
+  "intent_id": "INT-0002",
+  "observed": "0.16s",
+  "passed": true,
+  "quote_id": "LQ-20261103T160806-0002",
+  "reason": "quote fresh",
+  "side": "SELL",
+  "threshold": "<= 5.00s",
+  "ts": "2026-11-03T16:08:07.052156+00:00"
+ },
+ {
+  "check_name": "max_slippage",
+  "decision": "EXECUTED",
+  "intent_id": "INT-0002",
+  "observed": "31.1 bps (px dev 1.1, min-out 31.1)",
+  "passed": true,
+  "quote_id": "LQ-20261103T160806-0002",
+  "reason": "within tolerance",
+  "side": "SELL",
+  "threshold": "<= 50.0 bps",
+  "ts": "2026-11-03T16:08:07.052156+00:00"
+ },
+ {
+  "check_name": "token_validity",
+  "decision": "EXECUTED",
   "intent_id": "INT-0001",
   "observed": "in=EPjFWd..(6) out=So1111..(9)",
   "passed": true,
@@ -9,6 +57,18 @@
   "reason": "mints allowlisted, decimals match",
   "side": "BUY",
   "threshold": "allowlist USDC->SOL",
+  "ts": "2026-11-03T15:38:06.605894+00:00"
+ },
+ {
+  "check_name": "max_slippage",
+  "decision": "EXECUTED",
+  "intent_id": "INT-0001",
+  "observed": "33.0 bps (px dev 3.0, min-out 33.0)",
+  "passed": true,
+  "quote_id": "LQ-20261103T153806-0001",
+  "reason": "within tolerance",
+  "side": "BUY",
+  "threshold": "<= 50.0 bps",
   "ts": "2026-11-03T15:38:06.605894+00:00"
  },
  {
@@ -33,18 +93,6 @@
   "reason": "quote fresh",
   "side": "BUY",
   "threshold": "<= 5.00s",
-  "ts": "2026-11-03T15:38:06.605894+00:00"
- },
- {
-  "check_name": "max_slippage",
-  "decision": "EXECUTED",
-  "intent_id": "INT-0001",
-  "observed": "33.0 bps (px dev 3.0, min-out 33.0)",
-  "passed": true,
-  "quote_id": "LQ-20261103T153806-0001",
-  "reason": "within tolerance",
-  "side": "BUY",
-  "threshold": "<= 50.0 bps",
   "ts": "2026-11-03T15:38:06.605894+00:00"
  }
 ]

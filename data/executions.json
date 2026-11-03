@@ -1,5 +1,18 @@
 [
  {
+  "execution_id": 2,
+  "fee_usdc": 0.12493977707831638,
+  "fill_price": 93.3169498359635,
+  "in_amount": 0.5355501966060435,
+  "intent_id": "INT-0002",
+  "label": "signal: SMA10<SMA30 exit (93.4423<93.4613)",
+  "out_amount": 49.85097105424824,
+  "side": "SELL",
+  "signature": "SIM-b3f6565c2f84f9de",
+  "status": "SIMULATED_CONFIRMED",
+  "ts": "2026-11-03T16:08:07.052156+00:00"
+ },
+ {
   "execution_id": 1,
   "fee_usdc": 0.125,
   "fill_price": 93.12852523642819,
