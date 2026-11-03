@@ -477,11 +477,100 @@
    "high": 93.18747578514498,
    "low": 93.10335894235577,
    "open": 93.10335894235577,
-   "src": "jupiter-lite-price-v3+coinbase-spot (forming)",
+   "src": "jupiter-lite-price-v3+coinbase-spot",
    "time": 1793720220
+  },
+  {
+   "close": 93.05176345540197,
+   "high": 93.10054852159745,
+   "low": 93.04162349745204,
+   "open": 93.10054852159745,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793720280
+  },
+  {
+   "close": 93.05240174207732,
+   "high": 93.05240174207732,
+   "low": 93.02170254001582,
+   "open": 93.03183368088676,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793720340
+  },
+  {
+   "close": 93.2477078865999,
+   "high": 93.2477078865999,
+   "low": 93.12207136292247,
+   "open": 93.12207136292247,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793720400
+  },
+  {
+   "close": 93.42927593559894,
+   "high": 93.43767485766648,
+   "low": 93.29260866523731,
+   "open": 93.29260866523731,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793720460
+  },
+  {
+   "close": 93.46625777085288,
+   "high": 93.56548000333588,
+   "low": 93.46625777085288,
+   "open": 93.56548000333588,
+   "src": "jupiter-lite-price-v3 (forming)",
+   "time": 1793720520
   }
  ],
- "checks": [],
+ "checks": [
+  {
+   "check_name": "token_validity",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "in=EPjFWd..(6) out=So1111..(9)",
+   "passed": true,
+   "quote_id": "LQ-20261103T153806-0001",
+   "reason": "mints allowlisted, decimals match",
+   "side": "BUY",
+   "threshold": "allowlist USDC->SOL",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  },
+  {
+   "check_name": "available_balance",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "100.000000 USDC",
+   "passed": true,
+   "quote_id": "LQ-20261103T153806-0001",
+   "reason": "sufficient paper balance",
+   "side": "BUY",
+   "threshold": ">= 50.000000 USDC",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  },
+  {
+   "check_name": "quote_age",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "0.10s",
+   "passed": true,
+   "quote_id": "LQ-20261103T153806-0001",
+   "reason": "quote fresh",
+   "side": "BUY",
+   "threshold": "<= 5.00s",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  },
+  {
+   "check_name": "max_slippage",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "33.0 bps (px dev 3.0, min-out 33.0)",
+   "passed": true,
+   "quote_id": "LQ-20261103T153806-0001",
+   "reason": "within tolerance",
+   "side": "BUY",
+   "threshold": "<= 50.0 bps",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  }
+ ],
  "equity": [
   {
    "cash": 100.0,
@@ -629,18 +718,84 @@
    "price": 93.15,
    "sol": 0.0,
    "time": 1793720220
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.83389021307957,
+   "price": 93.05176345540197,
+   "sol": 0.5355501966060435,
+   "time": 1793720280
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.83423204763406,
+   "price": 93.05240174207732,
+   "sol": 0.5355501966060435,
+   "time": 1793720340
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.93882829173148,
+   "price": 93.2477078865999,
+   "sol": 0.5355501966060435,
+   "time": 1793720400
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.0360670960703,
+   "price": 93.42927593559894,
+   "sol": 0.5355501966060435,
+   "time": 1793720460
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.0558727252114,
+   "price": 93.46625777085288,
+   "sol": 0.5355501966060435,
+   "time": 1793720520
   }
  ],
- "executions": [],
- "export_utc": "2026-11-03T15:37:58.448653+00:00",
- "generated_utc": "2026-11-03T15:37:51.609275+00:00",
- "intents": [],
+ "executions": [
+  {
+   "execution_id": 1,
+   "fee_usdc": 0.125,
+   "fill_price": 93.12852523642819,
+   "in_amount": 50.0,
+   "intent_id": "INT-0001",
+   "label": "signal: SMA10>SMA30 entry (93.0677>93.0493)",
+   "out_amount": 0.5355501966060435,
+   "side": "BUY",
+   "signature": "SIM-ff28f6ebaf50bd4b",
+   "status": "SIMULATED_CONFIRMED",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  }
+ ],
+ "export_utc": "2026-11-03T15:42:59.960285+00:00",
+ "generated_utc": "2026-11-03T15:42:51.611087+00:00",
+ "intents": [
+  {
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "label": "signal: SMA10>SMA30 entry (93.0677>93.0493)",
+   "price": 93.12852523642819,
+   "side": "BUY",
+   "ts": "2026-11-03T15:38:06.605894+00:00"
+  }
+ ],
  "last_tick": {
-  "price": 93.15,
-  "source": "coinbase-spot",
-  "ts": "2026-11-03T15:37:51.506164+00:00"
+  "price": 93.46625777085288,
+  "source": "jupiter-lite-price-v3",
+  "ts": "2026-11-03T15:42:51.555535+00:00"
  },
- "positions": [],
+ "positions": [
+  {
+   "avg_entry": 93.12852523642819,
+   "execution_id": 1,
+   "sol": 0.5355501966060435,
+   "ts": "2026-11-03T15:38:06.605894+00:00",
+   "usdc": 50.0
+  }
+ ],
  "rejections": [],
  "report_ready": false,
  "risk": {
@@ -652,42 +807,42 @@
  },
  "summary": {
   "balances": {
-   "SOL": 0.0,
-   "USDC": 100.0
+   "SOL": 0.5355501966060435,
+   "USDC": 50.0
   },
-  "bars": 20,
-  "buy_hold_equity_usdc": 99.603998,
-  "buy_hold_return_pct": -0.396,
-  "equity_usdc": 100.0,
-  "executions": 0,
-  "fees_paid_usdc": 0,
+  "bars": 25,
+  "buy_hold_equity_usdc": 99.942168,
+  "buy_hold_return_pct": -0.0578,
+  "equity_usdc": 100.055873,
+  "executions": 1,
+  "fees_paid_usdc": 0.125,
   "finished_utc": null,
   "first_price": 93.05332562502076,
-  "last_price": 93.15,
+  "last_price": 93.46625777085288,
   "market": "SOL/USDC",
-  "max_drawdown_pct": 0.0,
+  "max_drawdown_pct": -0.1822,
   "mode": "PAPER (modeled quotes, simulated fills)",
   "planned_end_utc": "2026-11-04T15:17:51+00:00",
-  "pnl_usdc": 0.0,
+  "pnl_usdc": 0.055873,
   "position": {
-   "avg_entry": 0.0,
-   "sol": 0.0
+   "avg_entry": 93.12852523642819,
+   "sol": 0.5355501966060435
   },
   "price_sources_used": {
    "coinbase-spot": 6,
-   "jupiter-lite-price-v3": 74
+   "jupiter-lite-price-v3": 94
   },
   "rejections": 0,
   "rejections_by_check": {},
   "restarts": 1,
-  "return_pct": 0.0,
+  "return_pct": 0.0559,
   "round_trips": 0,
   "session_id": "session2",
   "start_utc": "2026-11-03T15:17:51+00:00",
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 80,
+  "ticks": 100,
   "win_rate_pct": null,
   "wins": 0
  },

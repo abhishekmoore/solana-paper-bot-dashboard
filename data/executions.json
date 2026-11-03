@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "execution_id": 1,
+  "fee_usdc": 0.125,
+  "fill_price": 93.12852523642819,
+  "in_amount": 50.0,
+  "intent_id": "INT-0001",
+  "label": "signal: SMA10>SMA30 entry (93.0677>93.0493)",
+  "out_amount": 0.5355501966060435,
+  "side": "BUY",
+  "signature": "SIM-ff28f6ebaf50bd4b",
+  "status": "SIMULATED_CONFIRMED",
+  "ts": "2026-11-03T15:38:06.605894+00:00"
+ }
+]
