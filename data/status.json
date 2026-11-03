@@ -509,11 +509,100 @@
    "high": 92.98295230751249,
    "low": 92.64605811186257,
    "open": 92.64605811186257,
-   "src": "jupiter-lite-price-v3 (forming)",
+   "src": "jupiter-lite-price-v3",
    "time": 1793712540
+  },
+  {
+   "close": 93.05627214138322,
+   "high": 93.05627214138322,
+   "low": 92.91155629256211,
+   "open": 92.91155629256211,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793712600
+  },
+  {
+   "close": 93.32530153707042,
+   "high": 93.32530153707042,
+   "low": 93.07683507087411,
+   "open": 93.07683507087411,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793712660
+  },
+  {
+   "close": 93.24590691374526,
+   "high": 93.4172934524557,
+   "low": 93.24590691374526,
+   "open": 93.4172934524557,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793712720
+  },
+  {
+   "close": 93.38138624626247,
+   "high": 93.47542245423661,
+   "low": 93.365,
+   "open": 93.365,
+   "src": "coinbase-spot+jupiter-lite-price-v3",
+   "time": 1793712780
+  },
+  {
+   "close": 93.43493154377113,
+   "high": 93.47384007300593,
+   "low": 93.4280424143,
+   "open": 93.4280424143,
+   "src": "jupiter-lite-price-v3 (forming)",
+   "time": 1793712840
   }
  ],
- "checks": [],
+ "checks": [
+  {
+   "check_name": "token_validity",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "in=EPjFWd..(6) out=So1111..(9)",
+   "passed": true,
+   "quote_id": "LQ-20261103T133309-0001",
+   "reason": "mints allowlisted, decimals match",
+   "side": "BUY",
+   "threshold": "allowlist USDC->SOL",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  },
+  {
+   "check_name": "available_balance",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "100.000000 USDC",
+   "passed": true,
+   "quote_id": "LQ-20261103T133309-0001",
+   "reason": "sufficient paper balance",
+   "side": "BUY",
+   "threshold": ">= 50.000000 USDC",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  },
+  {
+   "check_name": "quote_age",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "0.14s",
+   "passed": true,
+   "quote_id": "LQ-20261103T133309-0001",
+   "reason": "quote fresh",
+   "side": "BUY",
+   "threshold": "<= 5.00s",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  },
+  {
+   "check_name": "max_slippage",
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "observed": "25.1 bps (px dev -4.9, min-out 25.1)",
+   "passed": true,
+   "quote_id": "LQ-20261103T133309-0001",
+   "reason": "within tolerance",
+   "side": "BUY",
+   "threshold": "<= 50.0 bps",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  }
+ ],
  "equity": [
   {
    "cash": 100.0,
@@ -682,18 +771,84 @@
    "price": 92.98295230751249,
    "sol": 0.0,
    "time": 1793712540
+  },
+  {
+   "cash": 100.0,
+   "equity": 100.0,
+   "price": 93.05627214138322,
+   "sol": 0.0,
+   "time": 1793712600
+  },
+  {
+   "cash": 100.0,
+   "equity": 100.0,
+   "price": 93.32530153707042,
+   "sol": 0.0,
+   "time": 1793712660
+  },
+  {
+   "cash": 100.0,
+   "equity": 100.0,
+   "price": 93.24590691374526,
+   "sol": 0.0,
+   "time": 1793712720
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.86876786568898,
+   "price": 93.38138624626247,
+   "sol": 0.5340332786897876,
+   "time": 1793712780
+  },
+  {
+   "cash": 50.0,
+   "equity": 99.89736283647595,
+   "price": 93.43493154377113,
+   "sol": 0.5340332786897876,
+   "time": 1793712840
   }
  ],
- "executions": [],
- "export_utc": "2026-11-03T13:29:57.552899+00:00",
- "generated_utc": "2026-11-03T13:29:54.953325+00:00",
- "intents": [],
+ "executions": [
+  {
+   "execution_id": 1,
+   "fee_usdc": 0.125,
+   "fill_price": 93.3930561825,
+   "in_amount": 50.0,
+   "intent_id": "INT-0001",
+   "label": "signal: SMA10>SMA30 entry (92.7767>92.7333)",
+   "out_amount": 0.5340332786897876,
+   "side": "BUY",
+   "signature": "SIM-a2696e5e7e2a4c12",
+   "status": "SIMULATED_CONFIRMED",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  }
+ ],
+ "export_utc": "2026-11-03T13:34:58.718616+00:00",
+ "generated_utc": "2026-11-03T13:34:54.979262+00:00",
+ "intents": [
+  {
+   "decision": "EXECUTED",
+   "intent_id": "INT-0001",
+   "label": "signal: SMA10>SMA30 entry (92.7767>92.7333)",
+   "price": 93.3930561825,
+   "side": "BUY",
+   "ts": "2026-11-03T13:33:10.058214+00:00"
+  }
+ ],
  "last_tick": {
-  "price": 92.98295230751249,
+  "price": 93.43493154377113,
   "source": "jupiter-lite-price-v3",
-  "ts": "2026-11-03T13:29:54.890298+00:00"
+  "ts": "2026-11-03T13:34:54.922915+00:00"
  },
- "positions": [],
+ "positions": [
+  {
+   "avg_entry": 93.3930561825,
+   "execution_id": 1,
+   "sol": 0.5340332786897876,
+   "ts": "2026-11-03T13:33:10.058214+00:00",
+   "usdc": 50.0
+  }
+ ],
  "rejections": [],
  "report_ready": false,
  "risk": {
@@ -705,41 +860,41 @@
  },
  "summary": {
   "balances": {
-   "SOL": 0.0,
-   "USDC": 100.0
+   "SOL": 0.5340332786897876,
+   "USDC": 50.0
   },
-  "bars": 23,
-  "buy_hold_equity_usdc": 99.853923,
-  "buy_hold_return_pct": -0.1461,
-  "equity_usdc": 100.0,
-  "executions": 0,
-  "fees_paid_usdc": 0,
+  "bars": 28,
+  "buy_hold_equity_usdc": 100.339301,
+  "buy_hold_return_pct": 0.3393,
+  "equity_usdc": 99.897363,
+  "executions": 1,
+  "fees_paid_usdc": 0.125,
   "finished_utc": null,
   "first_price": 92.65396466465725,
-  "last_price": 92.98295230751249,
+  "last_price": 93.43493154377113,
   "market": "SOL/USDC",
-  "max_drawdown_pct": 0.0,
+  "max_drawdown_pct": -0.14,
   "mode": "PAPER (modeled quotes, simulated fills)",
   "planned_end_utc": "2026-11-04T13:06:11+00:00",
-  "pnl_usdc": 0.0,
+  "pnl_usdc": -0.102637,
   "position": {
-   "avg_entry": 0.0,
-   "sol": 0.0
+   "avg_entry": 93.3930561825,
+   "sol": 0.5340332786897876
   },
   "price_sources_used": {
-   "coinbase-spot": 5,
-   "jupiter-lite-price-v3": 90
+   "coinbase-spot": 6,
+   "jupiter-lite-price-v3": 109
   },
   "rejections": 0,
   "rejections_by_check": {},
   "restarts": 1,
-  "return_pct": 0.0,
+  "return_pct": -0.1026,
   "round_trips": 0,
   "start_utc": "2026-11-03T13:06:11+00:00",
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 95,
+  "ticks": 115,
   "win_rate_pct": null,
   "wins": 0
  },
