@@ -8,6 +8,11 @@
   "[2026-11-03T15:20:06.488305+00:00] BAR 15:19Z o=92.9020 h=92.9338 l=92.8792 c=92.9193 ticks=4 src=jupiter-lite-price-v3",
   "### RESUMED session start=2026-11-03T15:17:51+00:00 end=2026-11-04T15:17:51+00:00 balances={'USDC': 100.0, 'SOL': 0.0} position={'sol': 0.0, 'avg_entry': 0.0} status=RUNNING",
   "[2026-11-03T15:21:06.346396+00:00] BAR 15:20Z o=92.9577 h=92.9577 l=92.9577 c=92.9577 ticks=1 src=jupiter-lite-price-v3",
-  "[2026-11-03T15:22:06.354703+00:00] BAR 15:21Z o=92.9382 h=93.0425 l=92.9382 c=93.0425 ticks=4 src=jupiter-lite-price-v3"
+  "[2026-11-03T15:22:06.354703+00:00] BAR 15:21Z o=92.9382 h=93.0425 l=92.9382 c=93.0425 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T15:23:06.360797+00:00] BAR 15:22Z o=92.9861 h=93.0450 l=92.9599 c=92.9900 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
+  "[2026-11-03T15:24:06.367644+00:00] BAR 15:23Z o=92.9428 h=92.9846 l=92.8950 c=92.9355 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
+  "[2026-11-03T15:25:06.382972+00:00] BAR 15:24Z o=92.8813 h=92.8813 l=92.8134 c=92.8508 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T15:26:06.388653+00:00] BAR 15:25Z o=92.8250 h=92.8724 l=92.7770 c=92.8724 ticks=4 src=coinbase-spot+jupiter-lite-price-v3",
+  "[2026-11-03T15:27:06.394709+00:00] BAR 15:26Z o=92.8771 h=92.8771 l=92.8286 c=92.8286 ticks=4 src=jupiter-lite-price-v3"
  ]
 }

@@ -352,11 +352,51 @@
   "time": 1793719260
  },
  {
-  "close": 92.9599360385614,
+  "close": 92.99,
   "high": 93.045,
   "low": 92.9599360385614,
   "open": 92.98606519258776,
-  "src": "jupiter-lite-price-v3+coinbase-spot (forming)",
+  "src": "jupiter-lite-price-v3+coinbase-spot",
   "time": 1793719320
+ },
+ {
+  "close": 92.93547329382358,
+  "high": 92.98464462978161,
+  "low": 92.895,
+  "open": 92.94279278981526,
+  "src": "jupiter-lite-price-v3+coinbase-spot",
+  "time": 1793719380
+ },
+ {
+  "close": 92.85076370194935,
+  "high": 92.88129309029911,
+  "low": 92.81344489198518,
+  "open": 92.88129309029911,
+  "src": "jupiter-lite-price-v3",
+  "time": 1793719440
+ },
+ {
+  "close": 92.87235304065382,
+  "high": 92.87235304065382,
+  "low": 92.77700055635006,
+  "open": 92.825,
+  "src": "coinbase-spot+jupiter-lite-price-v3",
+  "time": 1793719500
+ },
+ {
+  "close": 92.82863334531933,
+  "high": 92.87714358579446,
+  "low": 92.82863334531933,
+  "open": 92.87714358579446,
+  "src": "jupiter-lite-price-v3",
+  "time": 1793719560
+ },
+ {
+  "close": 92.76698376125373,
+  "high": 92.8095727307808,
+  "low": 92.76698376125373,
+  "open": 92.80400022893551,
+  "src": "jupiter-lite-price-v3 (forming)",
+  "time": 1793719620
  }
 ]
