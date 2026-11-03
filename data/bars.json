@@ -1,922 +1,338 @@
 [
  {
-  "close": 93.13,
-  "high": 93.25,
-  "low": 92.88,
-  "open": 92.88,
+  "close": 93.19,
+  "high": 93.27,
+  "low": 93.17,
+  "open": 93.18,
   "src": "coinbase-candles-backfill",
-  "time": 1793708520
- },
- {
-  "close": 93.03,
-  "high": 93.15,
-  "low": 93.0,
-  "open": 93.13,
-  "src": "coinbase-candles-backfill",
-  "time": 1793708580
- },
- {
-  "close": 93.13,
-  "high": 93.14,
-  "low": 93.03,
-  "open": 93.03,
-  "src": "coinbase-candles-backfill",
-  "time": 1793708640
+  "time": 1793716680
  },
  {
   "close": 93.21,
-  "high": 93.22,
-  "low": 93.1,
-  "open": 93.12,
+  "high": 93.25,
+  "low": 93.18,
+  "open": 93.21,
   "src": "coinbase-candles-backfill",
-  "time": 1793708700
+  "time": 1793716740
  },
  {
-  "close": 93.11,
-  "high": 93.19,
-  "low": 93.1,
-  "open": 93.19,
+  "close": 93.26,
+  "high": 93.29,
+  "low": 93.17,
+  "open": 93.22,
   "src": "coinbase-candles-backfill",
-  "time": 1793708760
+  "time": 1793716800
  },
  {
-  "close": 93.05,
-  "high": 93.13,
-  "low": 93.03,
-  "open": 93.12,
+  "close": 93.31,
+  "high": 93.36,
+  "low": 93.19,
+  "open": 93.26,
   "src": "coinbase-candles-backfill",
-  "time": 1793708820
+  "time": 1793716860
  },
  {
-  "close": 93.09,
-  "high": 93.12,
-  "low": 93.03,
-  "open": 93.05,
+  "close": 93.38,
+  "high": 93.4,
+  "low": 93.27,
+  "open": 93.33,
   "src": "coinbase-candles-backfill",
-  "time": 1793708880
+  "time": 1793716920
  },
  {
-  "close": 93.03,
-  "high": 93.14,
-  "low": 92.99,
-  "open": 93.06,
+  "close": 93.28,
+  "high": 93.42,
+  "low": 93.28,
+  "open": 93.4,
   "src": "coinbase-candles-backfill",
-  "time": 1793708940
+  "time": 1793716980
  },
  {
-  "close": 92.98,
-  "high": 93.06,
-  "low": 92.95,
-  "open": 93.02,
+  "close": 93.3,
+  "high": 93.3,
+  "low": 93.23,
+  "open": 93.27,
   "src": "coinbase-candles-backfill",
-  "time": 1793709000
+  "time": 1793717040
  },
  {
-  "close": 93.06,
-  "high": 93.07,
-  "low": 92.97,
-  "open": 92.98,
+  "close": 93.46,
+  "high": 93.5,
+  "low": 93.33,
+  "open": 93.33,
   "src": "coinbase-candles-backfill",
-  "time": 1793709060
+  "time": 1793717100
  },
  {
-  "close": 93.05,
-  "high": 93.05,
-  "low": 92.98,
-  "open": 93.05,
+  "close": 93.43,
+  "high": 93.47,
+  "low": 93.41,
+  "open": 93.45,
   "src": "coinbase-candles-backfill",
-  "time": 1793709120
+  "time": 1793717160
  },
  {
-  "close": 93.03,
-  "high": 93.07,
-  "low": 93.02,
-  "open": 93.06,
+  "close": 93.25,
+  "high": 93.43,
+  "low": 93.25,
+  "open": 93.43,
   "src": "coinbase-candles-backfill",
-  "time": 1793709180
+  "time": 1793717220
  },
  {
-  "close": 92.95,
-  "high": 93.02,
-  "low": 92.93,
-  "open": 93.02,
+  "close": 93.38,
+  "high": 93.4,
+  "low": 93.22,
+  "open": 93.24,
   "src": "coinbase-candles-backfill",
-  "time": 1793709240
+  "time": 1793717280
  },
  {
-  "close": 92.84,
-  "high": 92.96,
-  "low": 92.82,
-  "open": 92.96,
+  "close": 93.39,
+  "high": 93.43,
+  "low": 93.36,
+  "open": 93.38,
   "src": "coinbase-candles-backfill",
-  "time": 1793709300
+  "time": 1793717340
  },
  {
-  "close": 92.9,
-  "high": 92.91,
-  "low": 92.87,
-  "open": 92.89,
+  "close": 93.29,
+  "high": 93.39,
+  "low": 93.29,
+  "open": 93.39,
   "src": "coinbase-candles-backfill",
-  "time": 1793709360
+  "time": 1793717400
  },
  {
-  "close": 93.0,
-  "high": 93.01,
-  "low": 92.86,
-  "open": 92.9,
+  "close": 93.36,
+  "high": 93.36,
+  "low": 93.22,
+  "open": 93.27,
   "src": "coinbase-candles-backfill",
-  "time": 1793709420
+  "time": 1793717460
  },
  {
-  "close": 93.04,
-  "high": 93.05,
-  "low": 92.94,
-  "open": 92.99,
+  "close": 93.37,
+  "high": 93.43,
+  "low": 93.37,
+  "open": 93.38,
   "src": "coinbase-candles-backfill",
-  "time": 1793709480
+  "time": 1793717520
  },
  {
-  "close": 93.03,
-  "high": 93.11,
-  "low": 93.02,
-  "open": 93.04,
+  "close": 93.27,
+  "high": 93.46,
+  "low": 93.27,
+  "open": 93.36,
   "src": "coinbase-candles-backfill",
-  "time": 1793709540
- },
- {
-  "close": 92.99,
-  "high": 93.03,
-  "low": 92.93,
-  "open": 93.03,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709600
- },
- {
-  "close": 92.96,
-  "high": 93.0,
-  "low": 92.94,
-  "open": 92.98,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709660
- },
- {
-  "close": 92.88,
-  "high": 92.97,
-  "low": 92.88,
-  "open": 92.97,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709720
- },
- {
-  "close": 92.88,
-  "high": 92.9,
-  "low": 92.86,
-  "open": 92.87,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709780
- },
- {
-  "close": 92.89,
-  "high": 92.95,
-  "low": 92.88,
-  "open": 92.89,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709840
- },
- {
-  "close": 92.98,
-  "high": 93.0,
-  "low": 92.89,
-  "open": 92.89,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709900
- },
- {
-  "close": 92.91,
-  "high": 92.96,
-  "low": 92.9,
-  "open": 92.93,
-  "src": "coinbase-candles-backfill",
-  "time": 1793709960
- },
- {
-  "close": 92.99,
-  "high": 93.08,
-  "low": 92.89,
-  "open": 92.91,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710020
- },
- {
-  "close": 92.97,
-  "high": 93.04,
-  "low": 92.97,
-  "open": 93.0,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710080
- },
- {
-  "close": 92.98,
-  "high": 92.99,
-  "low": 92.9,
-  "open": 92.96,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710140
- },
- {
-  "close": 93.01,
-  "high": 93.05,
-  "low": 92.96,
-  "open": 92.97,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710200
- },
- {
-  "close": 93.09,
-  "high": 93.13,
-  "low": 93.0,
-  "open": 93.01,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710260
+  "time": 1793717580
  },
  {
   "close": 93.18,
-  "high": 93.18,
-  "low": 93.09,
-  "open": 93.1,
+  "high": 93.27,
+  "low": 93.16,
+  "open": 93.27,
   "src": "coinbase-candles-backfill",
-  "time": 1793710320
+  "time": 1793717640
  },
  {
-  "close": 93.05,
-  "high": 93.18,
-  "low": 93.04,
-  "open": 93.17,
+  "close": 93.23,
+  "high": 93.26,
+  "low": 93.15,
+  "open": 93.16,
   "src": "coinbase-candles-backfill",
-  "time": 1793710380
+  "time": 1793717700
+ },
+ {
+  "close": 93.25,
+  "high": 93.26,
+  "low": 93.19,
+  "open": 93.23,
+  "src": "coinbase-candles-backfill",
+  "time": 1793717760
+ },
+ {
+  "close": 93.21,
+  "high": 93.3,
+  "low": 93.2,
+  "open": 93.23,
+  "src": "coinbase-candles-backfill",
+  "time": 1793717820
+ },
+ {
+  "close": 93.24,
+  "high": 93.24,
+  "low": 93.16,
+  "open": 93.2,
+  "src": "coinbase-candles-backfill",
+  "time": 1793717880
+ },
+ {
+  "close": 93.26,
+  "high": 93.27,
+  "low": 93.23,
+  "open": 93.24,
+  "src": "coinbase-candles-backfill",
+  "time": 1793717940
+ },
+ {
+  "close": 93.18,
+  "high": 93.3,
+  "low": 93.16,
+  "open": 93.27,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718000
+ },
+ {
+  "close": 93.22,
+  "high": 93.29,
+  "low": 93.16,
+  "open": 93.22,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718060
+ },
+ {
+  "close": 93.27,
+  "high": 93.3,
+  "low": 93.2,
+  "open": 93.22,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718120
+ },
+ {
+  "close": 93.31,
+  "high": 93.32,
+  "low": 93.23,
+  "open": 93.26,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718180
  },
  {
   "close": 93.08,
-  "high": 93.11,
-  "low": 93.05,
-  "open": 93.05,
+  "high": 93.35,
+  "low": 93.08,
+  "open": 93.33,
   "src": "coinbase-candles-backfill",
-  "time": 1793710440
+  "time": 1793718240
  },
  {
-  "close": 93.04,
-  "high": 93.1,
-  "low": 93.04,
+  "close": 92.96,
+  "high": 93.07,
+  "low": 92.94,
   "open": 93.07,
   "src": "coinbase-candles-backfill",
-  "time": 1793710500
+  "time": 1793718300
  },
  {
-  "close": 93.08,
-  "high": 93.08,
-  "low": 93.05,
-  "open": 93.07,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710560
- },
- {
-  "close": 93.0,
-  "high": 93.03,
-  "low": 93.0,
-  "open": 93.03,
-  "src": "coinbase-candles-backfill",
-  "time": 1793710620
- },
- {
-  "close": 92.98,
-  "high": 93.0,
+  "close": 93.07,
+  "high": 93.09,
   "low": 92.96,
-  "open": 92.99,
+  "open": 92.96,
   "src": "coinbase-candles-backfill",
-  "time": 1793710680
+  "time": 1793718360
  },
  {
-  "close": 92.95,
-  "high": 92.98,
-  "low": 92.9,
-  "open": 92.98,
+  "close": 93.08,
+  "high": 93.18,
+  "low": 93.07,
+  "open": 93.07,
   "src": "coinbase-candles-backfill",
-  "time": 1793710740
+  "time": 1793718420
  },
  {
-  "close": 92.84,
-  "high": 92.95,
-  "low": 92.84,
-  "open": 92.95,
+  "close": 93.12,
+  "high": 93.16,
+  "low": 93.07,
+  "open": 93.08,
   "src": "coinbase-candles-backfill",
-  "time": 1793710800
+  "time": 1793718480
  },
  {
-  "close": 92.89,
-  "high": 92.93,
-  "low": 92.82,
-  "open": 92.83,
+  "close": 93.24,
+  "high": 93.31,
+  "low": 93.09,
+  "open": 93.12,
   "src": "coinbase-candles-backfill",
-  "time": 1793710860
+  "time": 1793718540
  },
  {
-  "close": 92.74,
-  "high": 92.74,
-  "low": 92.65396466465725,
-  "open": 92.65396466465725,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793711160
+  "close": 93.16,
+  "high": 93.24,
+  "low": 93.16,
+  "open": 93.23,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718600
  },
  {
-  "close": 92.80387293684082,
-  "high": 92.80387293684082,
-  "low": 92.75418246972959,
-  "open": 92.75418246972959,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793711220
+  "close": 93.18,
+  "high": 93.2,
+  "low": 93.11,
+  "open": 93.16,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718660
  },
  {
-  "close": 92.71314802644297,
-  "high": 92.8016848371212,
-  "low": 92.71314802644297,
-  "open": 92.8016848371212,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711280
- },
- {
-  "close": 92.66105892920349,
-  "high": 92.70798106358009,
-  "low": 92.66105892920349,
-  "open": 92.70798106358009,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711340
- },
- {
-  "close": 92.64266853310642,
-  "high": 92.64266853310642,
-  "low": 92.63015065353443,
-  "open": 92.63015065353443,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711400
- },
- {
-  "close": 92.663625832795,
-  "high": 92.663625832795,
-  "low": 92.663625832795,
-  "open": 92.663625832795,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711460
- },
- {
-  "close": 92.66362392749478,
-  "high": 92.6733139453354,
-  "low": 92.65202133887777,
-  "open": 92.65202133887777,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711520
- },
- {
-  "close": 92.675994776617,
-  "high": 92.675994776617,
-  "low": 92.64140594275082,
-  "open": 92.64140594275082,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711580
- },
- {
-  "close": 92.70700510593194,
-  "high": 92.70700510593194,
-  "low": 92.64190221380592,
-  "open": 92.67117429050796,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711640
- },
- {
-  "close": 92.72779368509784,
-  "high": 92.72779368509784,
-  "low": 92.61730428328545,
-  "open": 92.61730428328545,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711700
- },
- {
-  "close": 92.745,
-  "high": 92.75138586955109,
-  "low": 92.7173994109767,
-  "open": 92.74619970823053,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793711760
- },
- {
-  "close": 92.77343178358956,
-  "high": 92.77343178358956,
-  "low": 92.69724969761786,
-  "open": 92.7146023937013,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711820
- },
- {
-  "close": 92.68369582867206,
-  "high": 92.75143713227479,
-  "low": 92.68369582867206,
-  "open": 92.75143713227479,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711880
- },
- {
-  "close": 92.66962037366473,
-  "high": 92.70776302250331,
-  "low": 92.66962037366473,
-  "open": 92.67265477799782,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793711940
- },
- {
-  "close": 92.59660522241279,
-  "high": 92.6838941730316,
-  "low": 92.59660522241279,
-  "open": 92.6838941730316,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712000
- },
- {
-  "close": 92.54162606926826,
-  "high": 92.64,
-  "low": 92.54162606926826,
-  "open": 92.63857419456846,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793712060
- },
- {
-  "close": 92.54459655824306,
-  "high": 92.54801870358375,
-  "low": 92.52616463051102,
-  "open": 92.54801870358375,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712120
- },
- {
-  "close": 92.51740108566564,
-  "high": 92.51740108566564,
-  "low": 92.50518900810937,
-  "open": 92.51718570245626,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712180
- },
- {
-  "close": 92.35469911559939,
-  "high": 92.47480803916457,
-  "low": 92.35469911559939,
-  "open": 92.47480803916457,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712240
- },
- {
-  "close": 92.4171254455631,
-  "high": 92.4171254455631,
-  "low": 92.30590978152557,
-  "open": 92.30590978152557,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712300
- },
- {
-  "close": 92.71894640924447,
-  "high": 92.71894640924447,
-  "low": 92.42169550646081,
-  "open": 92.42169550646081,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712360
- },
- {
-  "close": 92.5035957732678,
-  "high": 92.67424432587133,
-  "low": 92.5035957732678,
-  "open": 92.67424432587133,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712420
- },
- {
-  "close": 92.64490188447951,
-  "high": 92.64490188447951,
-  "low": 92.49400298698907,
-  "open": 92.52537820127405,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712480
- },
- {
-  "close": 92.98295230751249,
-  "high": 92.98295230751249,
-  "low": 92.64605811186257,
-  "open": 92.64605811186257,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712540
- },
- {
-  "close": 93.05627214138322,
-  "high": 93.05627214138322,
-  "low": 92.91155629256211,
-  "open": 92.91155629256211,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712600
- },
- {
-  "close": 93.32530153707042,
-  "high": 93.32530153707042,
-  "low": 93.07683507087411,
-  "open": 93.07683507087411,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712660
- },
- {
-  "close": 93.24590691374526,
-  "high": 93.4172934524557,
-  "low": 93.24590691374526,
-  "open": 93.4172934524557,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712720
- },
- {
-  "close": 93.38138624626247,
-  "high": 93.47542245423661,
-  "low": 93.365,
-  "open": 93.365,
-  "src": "coinbase-spot+jupiter-lite-price-v3",
-  "time": 1793712780
- },
- {
-  "close": 93.43493154377113,
-  "high": 93.47384007300593,
-  "low": 93.4280424143,
-  "open": 93.4280424143,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712840
- },
- {
-  "close": 93.07675322511774,
-  "high": 93.2845008787514,
-  "low": 93.07675322511774,
-  "open": 93.21643140279222,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712900
- },
- {
-  "close": 93.07291197355342,
-  "high": 93.09939057340101,
-  "low": 93.00578680309978,
-  "open": 93.04781637978579,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793712960
- },
- {
-  "close": 93.14817495713511,
-  "high": 93.18058217293236,
-  "low": 93.0928874553125,
-  "open": 93.0928874553125,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713020
- },
- {
-  "close": 93.1378737549217,
-  "high": 93.1378737549217,
-  "low": 93.07579966889553,
-  "open": 93.07579966889553,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713080
- },
- {
-  "close": 93.11915435664994,
-  "high": 93.14433841858559,
-  "low": 93.00008840869253,
-  "open": 93.10827538050937,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713140
- },
- {
-  "close": 93.13411621928326,
-  "high": 93.15351960419073,
-  "low": 93.11582914345584,
-  "open": 93.11582914345584,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713200
- },
- {
-  "close": 93.07507668392688,
-  "high": 93.1381685023811,
-  "low": 93.07507668392688,
-  "open": 93.10210823178278,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713260
+  "close": 93.3,
+  "high": 93.32,
+  "low": 93.18,
+  "open": 93.18,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718720
  },
  {
-  "close": 93.14644284116083,
-  "high": 93.14644284116083,
-  "low": 93.06720148637305,
-  "open": 93.06720148637305,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713320
- },
- {
-  "close": 93.11484636371092,
-  "high": 93.15016367082401,
-  "low": 93.09094268436581,
-  "open": 93.15016367082401,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713380
- },
- {
-  "close": 93.07165557158746,
-  "high": 93.10430295624529,
-  "low": 93.03955311649653,
-  "open": 93.10430295624529,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713440
- },
- {
-  "close": 93.12459907332605,
-  "high": 93.12459907332605,
-  "low": 93.05746716031408,
-  "open": 93.05746716031408,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713500
- },
- {
-  "close": 93.12948397086927,
-  "high": 93.27654444911458,
-  "low": 93.12948397086927,
-  "open": 93.14511376692708,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713560
- },
- {
-  "close": 93.12392132850293,
-  "high": 93.14955360331969,
-  "low": 93.12392132850293,
-  "open": 93.14955360331969,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713620
- },
- {
-  "close": 93.05207730649852,
-  "high": 93.14830837324502,
-  "low": 93.05207730649852,
-  "open": 93.14830837324502,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713680
- },
- {
-  "close": 93.22347733635219,
-  "high": 93.22347733635219,
-  "low": 93.06708801616395,
-  "open": 93.06708801616395,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713740
- },
- {
-  "close": 93.10997538621808,
-  "high": 93.23607440618613,
-  "low": 93.10997538621808,
-  "open": 93.23607440618613,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713800
- },
- {
-  "close": 93.11914807970307,
-  "high": 93.13530090279077,
-  "low": 93.10503134198893,
-  "open": 93.105721785819,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713860
- },
- {
-  "close": 93.00924991634781,
-  "high": 93.10138318524598,
-  "low": 93.00924991634781,
-  "open": 93.10138318524598,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713920
- },
- {
-  "close": 93.05680738639835,
-  "high": 93.05680738639835,
-  "low": 92.9860293090448,
-  "open": 92.99035361656138,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793713980
- },
- {
-  "close": 92.99790032604214,
-  "high": 93.0075284700114,
-  "low": 92.95091016505064,
-  "open": 92.95091016505064,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714040
- },
- {
-  "close": 92.93826997811443,
-  "high": 92.96762907762685,
-  "low": 92.93826997811443,
-  "open": 92.96762907762685,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714100
- },
- {
-  "close": 92.95918417257032,
-  "high": 92.97299517717101,
-  "low": 92.94053491550584,
-  "open": 92.94053491550584,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714160
- },
- {
-  "close": 93.02091399257645,
-  "high": 93.02091399257645,
-  "low": 92.9922244365743,
-  "open": 92.9922244365743,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793714220
- },
- {
-  "close": 93.22774476006929,
-  "high": 93.22774476006929,
-  "low": 93.05166773972529,
-  "open": 93.05166773972529,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714280
+  "close": 93.22,
+  "high": 93.36,
+  "low": 93.19,
+  "open": 93.28,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718780
  },
  {
-  "close": 93.09301070862278,
-  "high": 93.20134939498757,
-  "low": 93.09301070862278,
-  "open": 93.20134939498757,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714340
- },
- {
-  "close": 93.17899215611041,
-  "high": 93.17899215611041,
-  "low": 93.05743985211016,
-  "open": 93.0948132191968,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714400
- },
- {
-  "close": 93.08849345010377,
-  "high": 93.15413465829343,
-  "low": 93.08849345010377,
-  "open": 93.15413465829343,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714460
- },
- {
-  "close": 92.97126322416294,
-  "high": 93.04485465735306,
-  "low": 92.97126322416294,
-  "open": 93.04485465735306,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714520
- },
- {
-  "close": 92.95461090185994,
-  "high": 92.95461090185994,
-  "low": 92.89014765846699,
-  "open": 92.89014765846699,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714580
- },
- {
-  "close": 92.85339271736116,
-  "high": 92.99288553824583,
-  "low": 92.85339271736116,
-  "open": 92.99288553824583,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714640
- },
- {
-  "close": 92.83350545154852,
-  "high": 92.83350545154852,
-  "low": 92.78591053886186,
-  "open": 92.78840149725399,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714700
- },
- {
-  "close": 92.835,
-  "high": 92.835,
-  "low": 92.79697241329245,
-  "open": 92.79697241329245,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793714760
- },
- {
-  "close": 92.68950847720933,
-  "high": 92.7680909371684,
-  "low": 92.68950847720933,
-  "open": 92.74528571318825,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714820
+  "close": 93.19,
+  "high": 93.23,
+  "low": 93.13,
+  "open": 93.22,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718840
  },
  {
-  "close": 92.77725610823845,
-  "high": 92.77916349162595,
-  "low": 92.70745917609389,
-  "open": 92.70745917609389,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714880
- },
- {
-  "close": 92.88072709296993,
-  "high": 92.88072709296993,
-  "low": 92.75696234772958,
-  "open": 92.75696234772958,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793714940
- },
- {
-  "close": 92.86848150920761,
-  "high": 92.91367164847858,
-  "low": 92.86848150920761,
-  "open": 92.91101228035534,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715000
- },
- {
-  "close": 93.00112706902884,
-  "high": 93.00112706902884,
-  "low": 92.86961855070611,
-  "open": 92.86961855070611,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715060
- },
- {
-  "close": 93.05989215267766,
-  "high": 93.115,
-  "low": 92.99433742373405,
-  "open": 92.99769351727353,
-  "src": "jupiter-lite-price-v3+coinbase-spot",
-  "time": 1793715120
+  "close": 93.11,
+  "high": 93.18,
+  "low": 93.07,
+  "open": 93.18,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718900
  },
  {
-  "close": 92.99103758661859,
-  "high": 93.02755698132573,
-  "low": 92.98160387393705,
-  "open": 93.02755698132573,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715180
- },
- {
-  "close": 93.007624104152,
-  "high": 93.04129864777393,
-  "low": 93.007624104152,
-  "open": 93.04129864777393,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715240
- },
- {
-  "close": 92.79342037869115,
-  "high": 92.92699831525444,
-  "low": 92.79342037869115,
-  "open": 92.92699831525444,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715300
- },
- {
-  "close": 92.89465906682408,
-  "high": 92.89465906682408,
-  "low": 92.84665486244593,
-  "open": 92.85638207792634,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715360
- },
- {
-  "close": 92.9110732431403,
-  "high": 92.9110732431403,
-  "low": 92.8179845747917,
-  "open": 92.8179845747917,
-  "src": "jupiter-lite-price-v3",
-  "time": 1793715420
+  "close": 93.12,
+  "high": 93.17,
+  "low": 93.09,
+  "open": 93.15,
+  "src": "coinbase-candles-backfill",
+  "time": 1793718960
  },
  {
-  "close": 92.9909147688402,
-  "high": 92.9909147688402,
-  "low": 92.90724267628747,
-  "open": 92.90724267628747,
+  "close": 93.05332562502076,
+  "high": 93.05332562502076,
+  "low": 93.05332562502076,
+  "open": 93.05332562502076,
   "src": "jupiter-lite-price-v3",
-  "time": 1793715480
+  "time": 1793719020
  },
  {
-  "close": 92.92300993037104,
-  "high": 93.03968756885877,
-  "low": 92.92300993037104,
-  "open": 92.98441958024766,
+  "close": 92.94517958872115,
+  "high": 93.01093480647162,
+  "low": 92.94517958872115,
+  "open": 93.01093480647162,
   "src": "jupiter-lite-price-v3",
-  "time": 1793715540
+  "time": 1793719080
  },
  {
-  "close": 92.94868750663197,
-  "high": 92.94868750663197,
-  "low": 92.94868750663197,
-  "open": 92.94868750663197,
+  "close": 92.9019640175464,
+  "high": 92.9019640175464,
+  "low": 92.9019640175464,
+  "open": 92.9019640175464,
   "src": "jupiter-lite-price-v3 (forming)",
-  "time": 1793715600
+  "time": 1793719140
  }
 ]
