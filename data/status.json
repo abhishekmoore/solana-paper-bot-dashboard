@@ -597,8 +597,48 @@
    "high": 93.45162249726916,
    "low": 93.40065900041712,
    "open": 93.45162249726916,
-   "src": "jupiter-lite-price-v3 (forming)",
+   "src": "jupiter-lite-price-v3",
    "time": 1793721120
+  },
+  {
+   "close": 93.44970568986624,
+   "high": 93.44970568986624,
+   "low": 93.36685171570126,
+   "open": 93.37678666195028,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721180
+  },
+  {
+   "close": 93.5398420430524,
+   "high": 93.5398420430524,
+   "low": 93.48455163949039,
+   "open": 93.48455163949039,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721240
+  },
+  {
+   "close": 93.59046145257456,
+   "high": 93.59046145257456,
+   "low": 93.47443043707914,
+   "open": 93.47443043707914,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721300
+  },
+  {
+   "close": 93.68261490021627,
+   "high": 93.68284021003468,
+   "low": 93.60332666835957,
+   "open": 93.60332666835957,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721360
+  },
+  {
+   "close": 93.66955260094265,
+   "high": 93.72518959160023,
+   "low": 93.63372753294138,
+   "open": 93.63372753294138,
+   "src": "jupiter-lite-price-v3 (forming)",
+   "time": 1793721420
   }
  ],
  "checks": [
@@ -903,6 +943,41 @@
    "price": 93.40065900041712,
    "sol": 0.5355501966060435,
    "time": 1793721120
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.04700825498477,
+   "price": 93.44970568986624,
+   "sol": 0.5355501966060435,
+   "time": 1793721180
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.09528079665498,
+   "price": 93.5398420430524,
+   "sol": 0.5355501966060435,
+   "time": 1793721240
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.12239003137665,
+   "price": 93.59046145257456,
+   "sol": 0.5355501966060435,
+   "time": 1793721300
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.17174282837908,
+   "price": 93.68261490021627,
+   "sol": 0.5355501966060435,
+   "time": 1793721360
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.16474731143498,
+   "price": 93.66955260094265,
+   "sol": 0.5355501966060435,
+   "time": 1793721420
   }
  ],
  "executions": [
@@ -920,8 +995,8 @@
    "ts": "2026-11-03T15:38:06.605894+00:00"
   }
  ],
- "export_utc": "2026-11-03T15:53:03.403000+00:00",
- "generated_utc": "2026-11-03T15:52:51.793560+00:00",
+ "export_utc": "2026-11-03T15:58:05.441011+00:00",
+ "generated_utc": "2026-11-03T15:57:51.840825+00:00",
  "intents": [
   {
    "decision": "EXECUTED",
@@ -933,9 +1008,9 @@
   }
  ],
  "last_tick": {
-  "price": 93.40065900041712,
+  "price": 93.66955260094265,
   "source": "jupiter-lite-price-v3",
-  "ts": "2026-11-03T15:52:51.735521+00:00"
+  "ts": "2026-11-03T15:57:51.783847+00:00"
  },
  "positions": [
   {
@@ -960,39 +1035,39 @@
    "SOL": 0.5355501966060435,
    "USDC": 50.0
   },
-  "bars": 35,
-  "buy_hold_equity_usdc": 99.872024,
-  "buy_hold_return_pct": -0.128,
-  "equity_usdc": 100.020741,
+  "bars": 40,
+  "buy_hold_equity_usdc": 100.159548,
+  "buy_hold_return_pct": 0.1595,
+  "equity_usdc": 100.164747,
   "executions": 1,
   "fees_paid_usdc": 0.125,
   "finished_utc": null,
   "first_price": 93.05332562502076,
-  "last_price": 93.40065900041712,
+  "last_price": 93.66955260094265,
   "market": "SOL/USDC",
-  "max_drawdown_pct": -0.1822,
+  "max_drawdown_pct": -0.1858,
   "mode": "PAPER (modeled quotes, simulated fills)",
   "planned_end_utc": "2026-11-04T15:17:51+00:00",
-  "pnl_usdc": 0.020741,
+  "pnl_usdc": 0.164747,
   "position": {
    "avg_entry": 93.12852523642819,
    "sol": 0.5355501966060435
   },
   "price_sources_used": {
    "coinbase-spot": 6,
-   "jupiter-lite-price-v3": 134
+   "jupiter-lite-price-v3": 154
   },
   "rejections": 0,
   "rejections_by_check": {},
   "restarts": 1,
-  "return_pct": 0.0207,
+  "return_pct": 0.1647,
   "round_trips": 0,
   "session_id": "session2",
   "start_utc": "2026-11-03T15:17:51+00:00",
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 140,
+  "ticks": 160,
   "win_rate_pct": null,
   "wins": 0
  },
