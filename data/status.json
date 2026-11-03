@@ -637,8 +637,56 @@
    "high": 93.72518959160023,
    "low": 93.63372753294138,
    "open": 93.63372753294138,
-   "src": "jupiter-lite-price-v3 (forming)",
+   "src": "jupiter-lite-price-v3",
    "time": 1793721420
+  },
+  {
+   "close": 93.65022128052344,
+   "high": 93.69253583808522,
+   "low": 93.63377858709916,
+   "open": 93.69253583808522,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721480
+  },
+  {
+   "close": 93.59443646214086,
+   "high": 93.62935822020862,
+   "low": 93.59443646214086,
+   "open": 93.62935822020862,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721540
+  },
+  {
+   "close": 93.56454874592202,
+   "high": 93.63673550176834,
+   "low": 93.56454874592202,
+   "open": 93.62560405167352,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721600
+  },
+  {
+   "close": 93.49625998373334,
+   "high": 93.54532828121255,
+   "low": 93.49041980376214,
+   "open": 93.49041980376214,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721660
+  },
+  {
+   "close": 93.4188094937569,
+   "high": 93.48031143854078,
+   "low": 93.4188094937569,
+   "open": 93.45708964326928,
+   "src": "jupiter-lite-price-v3",
+   "time": 1793721720
+  },
+  {
+   "close": 93.3675628666166,
+   "high": 93.3675628666166,
+   "low": 93.3675628666166,
+   "open": 93.3675628666166,
+   "src": "jupiter-lite-price-v3 (forming)",
+   "time": 1793721780
   }
  ],
  "checks": [
@@ -978,6 +1026,48 @@
    "price": 93.66955260094265,
    "sol": 0.5355501966060435,
    "time": 1793721420
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.1543944189838,
+   "price": 93.65022128052344,
+   "sol": 0.5355501966060435,
+   "time": 1793721480
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.12451884853138,
+   "price": 93.59443646214086,
+   "sol": 0.5355501966060435,
+   "time": 1793721540
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.10851247623428,
+   "price": 93.56454874592202,
+   "sol": 0.5355501966060435,
+   "time": 1793721600
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.07194041621815,
+   "price": 93.49625998373334,
+   "sol": 0.5355501966060435,
+   "time": 1793721660
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.03046179108404,
+   "price": 93.4188094937569,
+   "sol": 0.5355501966060435,
+   "time": 1793721720
+  },
+  {
+   "cash": 50.0,
+   "equity": 100.00301664984364,
+   "price": 93.3675628666166,
+   "sol": 0.5355501966060435,
+   "time": 1793721780
   }
  ],
  "executions": [
@@ -995,8 +1085,8 @@
    "ts": "2026-11-03T15:38:06.605894+00:00"
   }
  ],
- "export_utc": "2026-11-03T15:58:05.441011+00:00",
- "generated_utc": "2026-11-03T15:57:51.840825+00:00",
+ "export_utc": "2026-11-03T16:03:07.023686+00:00",
+ "generated_utc": "2026-11-03T16:03:06.911923+00:00",
  "intents": [
   {
    "decision": "EXECUTED",
@@ -1008,9 +1098,9 @@
   }
  ],
  "last_tick": {
-  "price": 93.66955260094265,
+  "price": 93.3675628666166,
   "source": "jupiter-lite-price-v3",
-  "ts": "2026-11-03T15:57:51.783847+00:00"
+  "ts": "2026-11-03T16:03:06.838315+00:00"
  },
  "positions": [
   {
@@ -1035,39 +1125,39 @@
    "SOL": 0.5355501966060435,
    "USDC": 50.0
   },
-  "bars": 40,
-  "buy_hold_equity_usdc": 100.159548,
-  "buy_hold_return_pct": 0.1595,
-  "equity_usdc": 100.164747,
+  "bars": 46,
+  "buy_hold_equity_usdc": 99.836635,
+  "buy_hold_return_pct": -0.1634,
+  "equity_usdc": 100.003017,
   "executions": 1,
   "fees_paid_usdc": 0.125,
   "finished_utc": null,
   "first_price": 93.05332562502076,
-  "last_price": 93.66955260094265,
+  "last_price": 93.3675628666166,
   "market": "SOL/USDC",
-  "max_drawdown_pct": -0.1858,
+  "max_drawdown_pct": -0.1912,
   "mode": "PAPER (modeled quotes, simulated fills)",
   "planned_end_utc": "2026-11-04T15:17:51+00:00",
-  "pnl_usdc": 0.164747,
+  "pnl_usdc": 0.003017,
   "position": {
    "avg_entry": 93.12852523642819,
    "sol": 0.5355501966060435
   },
   "price_sources_used": {
    "coinbase-spot": 6,
-   "jupiter-lite-price-v3": 154
+   "jupiter-lite-price-v3": 175
   },
   "rejections": 0,
   "rejections_by_check": {},
   "restarts": 1,
-  "return_pct": 0.1647,
+  "return_pct": 0.003,
   "round_trips": 0,
   "session_id": "session2",
   "start_utc": "2026-11-03T15:17:51+00:00",
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 160,
+  "ticks": 181,
   "win_rate_pct": null,
   "wins": 0
  },
