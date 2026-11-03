@@ -420,7 +420,15 @@
   "high": 92.75143713227479,
   "low": 92.68369582867206,
   "open": 92.75143713227479,
-  "src": "jupiter-lite-price-v3 (forming)",
+  "src": "jupiter-lite-price-v3",
   "time": 1793711880
+ },
+ {
+  "close": 92.6921635035814,
+  "high": 92.70776302250331,
+  "low": 92.67265477799782,
+  "open": 92.67265477799782,
+  "src": "jupiter-lite-price-v3 (forming)",
+  "time": 1793711940
  }
 ]

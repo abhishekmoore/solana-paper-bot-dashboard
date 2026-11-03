@@ -421,8 +421,16 @@
    "high": 92.75143713227479,
    "low": 92.68369582867206,
    "open": 92.75143713227479,
-   "src": "jupiter-lite-price-v3 (forming)",
+   "src": "jupiter-lite-price-v3",
    "time": 1793711880
+  },
+  {
+   "close": 92.6921635035814,
+   "high": 92.70776302250331,
+   "low": 92.67265477799782,
+   "open": 92.67265477799782,
+   "src": "jupiter-lite-price-v3 (forming)",
+   "time": 1793711940
   }
  ],
  "checks": [],
@@ -517,16 +525,23 @@
    "price": 92.68369582867206,
    "sol": 0.0,
    "time": 1793711880
+  },
+  {
+   "cash": 100.0,
+   "equity": 100.0,
+   "price": 92.6921635035814,
+   "sol": 0.0,
+   "time": 1793711940
   }
  ],
  "executions": [],
- "export_utc": "2026-11-03T13:19:01.880358+00:00",
- "generated_utc": "2026-11-03T13:18:54.872064+00:00",
+ "export_utc": "2026-11-03T13:19:54.202361+00:00",
+ "generated_utc": "2026-11-03T13:19:39.859505+00:00",
  "intents": [],
  "last_tick": {
-  "price": 92.68369582867206,
+  "price": 92.6921635035814,
   "source": "jupiter-lite-price-v3",
-  "ts": "2026-11-03T13:18:54.805275+00:00"
+  "ts": "2026-11-03T13:19:39.810111+00:00"
  },
  "positions": [],
  "rejections": [],
@@ -543,15 +558,15 @@
    "SOL": 0.0,
    "USDC": 100.0
   },
-  "bars": 12,
-  "buy_hold_equity_usdc": 99.532553,
-  "buy_hold_return_pct": -0.4674,
+  "bars": 13,
+  "buy_hold_equity_usdc": 99.541647,
+  "buy_hold_return_pct": -0.4584,
   "equity_usdc": 100.0,
   "executions": 0,
   "fees_paid_usdc": 0,
   "finished_utc": null,
   "first_price": 92.65396466465725,
-  "last_price": 92.68369582867206,
+  "last_price": 92.6921635035814,
   "market": "SOL/USDC",
   "max_drawdown_pct": 0.0,
   "mode": "PAPER (modeled quotes, simulated fills)",
@@ -563,7 +578,7 @@
   },
   "price_sources_used": {
    "coinbase-spot": 4,
-   "jupiter-lite-price-v3": 47
+   "jupiter-lite-price-v3": 50
   },
   "rejections": 0,
   "rejections_by_check": {},
@@ -574,7 +589,7 @@
   "starting_capital_usdc": 100.0,
   "status": "RUNNING",
   "tick_failures": 0,
-  "ticks": 51,
+  "ticks": 54,
   "win_rate_pct": null,
   "wins": 0
  },

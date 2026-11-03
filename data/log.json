@@ -15,6 +15,7 @@
   "[2026-11-03T13:15:09.775111+00:00] BAR 13:14Z o=92.6712 h=92.7070 l=92.6419 c=92.7070 ticks=4 src=jupiter-lite-price-v3",
   "[2026-11-03T13:16:09.781927+00:00] BAR 13:15Z o=92.6173 h=92.7278 l=92.6173 c=92.7278 ticks=4 src=jupiter-lite-price-v3",
   "[2026-11-03T13:17:09.787362+00:00] BAR 13:16Z o=92.7462 h=92.7514 l=92.7174 c=92.7450 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
-  "[2026-11-03T13:18:09.793524+00:00] BAR 13:17Z o=92.7146 h=92.7734 l=92.6972 c=92.7734 ticks=4 src=jupiter-lite-price-v3"
+  "[2026-11-03T13:18:09.793524+00:00] BAR 13:17Z o=92.7146 h=92.7734 l=92.6972 c=92.7734 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T13:19:09.806911+00:00] BAR 13:18Z o=92.7514 h=92.7514 l=92.6837 c=92.6837 ticks=4 src=jupiter-lite-price-v3"
  ]
 }
