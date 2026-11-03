@@ -3,15 +3,15 @@
   "SOL": 0.0,
   "USDC": 100.0
  },
- "bars": 13,
- "buy_hold_equity_usdc": 99.541647,
- "buy_hold_return_pct": -0.4584,
+ "bars": 18,
+ "buy_hold_equity_usdc": 99.179245,
+ "buy_hold_return_pct": -0.8208,
  "equity_usdc": 100.0,
  "executions": 0,
  "fees_paid_usdc": 0,
  "finished_utc": null,
  "first_price": 92.65396466465725,
- "last_price": 92.6921635035814,
+ "last_price": 92.35469911559939,
  "market": "SOL/USDC",
  "max_drawdown_pct": 0.0,
  "mode": "PAPER (modeled quotes, simulated fills)",
@@ -22,8 +22,8 @@
   "sol": 0.0
  },
  "price_sources_used": {
-  "coinbase-spot": 4,
-  "jupiter-lite-price-v3": 50
+  "coinbase-spot": 5,
+  "jupiter-lite-price-v3": 70
  },
  "rejections": 0,
  "rejections_by_check": {},
@@ -34,7 +34,7 @@
  "starting_capital_usdc": 100.0,
  "status": "RUNNING",
  "tick_failures": 0,
- "ticks": 54,
+ "ticks": 75,
  "win_rate_pct": null,
  "wins": 0
 }
