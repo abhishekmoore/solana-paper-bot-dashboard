@@ -110,6 +110,11 @@
   "[2026-11-03T14:06:10.119789+00:00] BAR 14:05Z o=92.7884 h=92.8335 l=92.7859 c=92.8335 ticks=4 src=jupiter-lite-price-v3",
   "[2026-11-03T14:07:10.126476+00:00] BAR 14:06Z o=92.7970 h=92.8350 l=92.7970 c=92.8350 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
   "[2026-11-03T14:08:10.132423+00:00] BAR 14:07Z o=92.7453 h=92.7681 l=92.6895 c=92.6895 ticks=4 src=jupiter-lite-price-v3",
-  "[2026-11-03T14:09:10.138514+00:00] BAR 14:08Z o=92.7075 h=92.7792 l=92.7075 c=92.7773 ticks=4 src=jupiter-lite-price-v3"
+  "[2026-11-03T14:09:10.138514+00:00] BAR 14:08Z o=92.7075 h=92.7792 l=92.7075 c=92.7773 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:10:10.143935+00:00] BAR 14:09Z o=92.7570 h=92.8807 l=92.7570 c=92.8807 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:11:10.150050+00:00] BAR 14:10Z o=92.9110 h=92.9137 l=92.8685 c=92.8685 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:12:10.157012+00:00] BAR 14:11Z o=92.8696 h=93.0011 l=92.8696 c=93.0011 ticks=4 src=jupiter-lite-price-v3",
+  "[2026-11-03T14:13:10.163147+00:00] BAR 14:12Z o=92.9977 h=93.1150 l=92.9943 c=93.0599 ticks=4 src=jupiter-lite-price-v3+coinbase-spot",
+  "[2026-11-03T14:14:10.168561+00:00] BAR 14:13Z o=93.0276 h=93.0276 l=92.9816 c=92.9910 ticks=4 src=jupiter-lite-price-v3"
  ]
 }
